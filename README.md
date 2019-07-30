@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## add dependencies
+To get started developing right away:
+
+* install all project dependencies with git bash
+(first download git bash from https://git-scm.com/download/win)
+
+`npm install --save google-maps-react`
+`npm i react react-dom`
+`npm install `
+`npm install create-react-app`
+`npm install --save 'react-router'`
+`npm install react-router-dom`
+
 ## Available Scripts
 
 In the project directory, you can run:
