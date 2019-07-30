@@ -2,8 +2,9 @@
   "name": "crystal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tagwaesam.github.io/crystal",
+  "homepage": ".",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-router": "^4.3.1",
@@ -26,6 +27,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "homepage" : "."
+  ]
 }
