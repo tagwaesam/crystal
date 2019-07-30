@@ -1,32 +1,274 @@
 .App {
+  /* text-align: center; */
+  display:block;
+  margin: 0;
+  max-height: 100%;
+  overflow: hidden;
+  /* background-color: #ffff00b5; */
+}
+h1 {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: #bd2130;
+  padding-top: 5%;
 }
 
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  width:auto;
+  max-width:80%;
+  padding-left: 5%;
+  /* border: 7px groove #bd2130;
+  background-color: #212529;
+  color: white; */
 }
+
+a:hover{
+  cursor: pointer;
+}
+
+
+
+img{
+  /* padding: 0%; */
+}
+
+.navbar-dark .navbar-brand{
+  color:yellow;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav > li > a{
+  color:white;
+}
+
+
+.navbar-dark .navbar-collapse .navbar-nav > li > a:hover{
+  color:yellow;
+  cursor: pointer;
+}
+
+.navbar-dark .navbar-collapse .navbar-nav > li > a:focus{
+  color:yellow;
+  cursor: pointer;
+}
+
+/* .home .img{
+    position:absolute;
+    top:0;
+    left:0;
+    width:50px;
+    height:50px;
+    background:red;
+    border-radius:50%;
+} */
+.homeImg{
+    width:100%;
+    height:200px;
+    max-width: 100%;
+    position:center;
+    /* padding: 5%; */
+    /* -webkit-animation-iteration-count:infinite;
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-name:orbit;
+    -webkit-animation-duration:20s; */
+    top:50px;
+    left:50px;
+
+}
+
+@-webkit-keyframes orbit {
+from { -webkit-transform:rotate(0deg) }
+to { -webkit-transform:rotate(0deg) }
+}
+
+.home {
+  position: center;
+  /* text-align: center; */
+  color: white;
+  height:auto;
+  /* padding: 20%; */
+  /* background-image: url('./img/energy1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+
+
+}
+.homeImg {
+  /* position: center; */
+  /* width:300px;
+  max-width: 100%; */
+
+}
+.text {
+  /* position: relative; */
+  /* padding-top: 30%; */
+  margin-left: 10%;
+  margin-right: 10%;
+  /* top:100px; */
+  padding-bottom: 150px;
+  /* transform: translate(-50%, -50%); */
+  font-size: 150%;
+  color:black;
+  font-weight: bold;
+  /* position:center; */
+
+
+}
+
+.footer {
+  background-color: #ffff00b5;
+
+
+}
+
+
+
+/*
+.Storycontainer .P1 {
+  background-color: white;
+  font-size: 150%;
+}
+
+.Storycontainer .P2 {
+  background-color: #white;
+  font-size: 150%;
+}
+
+.Storycontainer .P3 {
+  background-color: white;
+  font-size: 150%;
+}
+
+.Storycontainer .P4 {
+  background-color: white;
+  font-size: 150%;
+}
+
+.Storycontainer .P5 {
+  color: black;
+  font-size: 150%;
+  /* background-image: url('./img/certified.jpg');
+
+}*/
+/* .Storycontainer .P6 {
+  background-color: white;
+  font-size: 150%;
+}
+.Storycontainer .P7 {
+  background-color: white;
+  font-size: 150%;
+} */
+
+.StoryContainer p {
+  /* background-image: url('./img/values.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color:black;
+  font-weight: bold;
+  font-size: 150%;
+
+
+}
+
+.StoryContainer .p7 .list-group {
+  color:black;
+}
+
+.valuesContainer p {
+  /* background-image: url('./img/values.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color:black;
+  font-weight: bold;
+  font-size: 150%;
+
+
+}
+
+.fixIssuesContainer p {
+  /* background-image: url('./img/fix1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color:black;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+.solutionContainer p {
+  /* background-image: url('./img/solution.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  color:black;
+  font-weight: bold;
+  font-size: 150%;
+}
+
+/* .ContactContanier {
+  width: auto;
+  max-width: 90%;
+} */
+
+.ContactContanier p {
+  /* background-image: url('./img/contact.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  /* max-width: 80%; */
+  color:black;
+  font-size:150%;
+  word-break: break-word;
+
+
+}
+
+.CareersContainer p {
+  color:black;
+  font-size:150%;
+}
+.CareersContainer .bold {
+  font-weight: bold;
+
+}
+
+
+
+/* Style the video: 100% width and height to cover the entire window */
+ /* .videoContanier{
+   position: relative;
+   padding:30%;
+ }
+ .videoContanier #myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  min-width: 300px;
+  min-height: 300px;
+} */
+
+/* Add some content at the bottom of the video/page */
+/* .videoContanier .content {
+  position: absolute;
+  left: 3%;
+  bottom: 0; */
+  /* background: rgba(0, 0, 0, 0.5); */
+  /* color: #f1f1f1;
+  width: 100%;
+  font-size: 150%;
+}*/
+
+/* Style the button used to pause/play the video */
+/* #myBtn {
+  width: 15%;
+  font-size: 18px;
+  padding: 1px;
+  border: none;
+  background: #ffc107;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+} */
