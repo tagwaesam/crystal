@@ -1,7 +1,7 @@
 {
   "main.css": "/crystal/static/css/main.1c8f9663.chunk.css",
-  "main.js": "/crystal/static/js/main.586b63c6.chunk.js",
-  "main.js.map": "/crystal/static/js/main.586b63c6.chunk.js.map",
+  "main.js": "/crystal/static/js/main.428812f1.chunk.js",
+  "main.js.map": "/crystal/static/js/main.428812f1.chunk.js.map",
   "static/js/1.d4ea446d.chunk.js": "/crystal/static/js/1.d4ea446d.chunk.js",
   "static/js/1.d4ea446d.chunk.js.map": "/crystal/static/js/1.d4ea446d.chunk.js.map",
   "runtime~main.js": "/crystal/static/js/runtime~main.9e0898f4.js",
@@ -11,6 +11,6 @@
   "static/media/energy1.jpeg": "/crystal/static/media/energy1.bac8852a.jpeg",
   "static/media/logo.jpeg": "/crystal/static/media/logo.0ec02d65.jpeg",
   "index.html": "/crystal/index.html",
-  "precache-manifest.527d12f06a8edf6f2e4a0354c0b8b475.js": "/crystal/precache-manifest.527d12f06a8edf6f2e4a0354c0b8b475.js",
+  "precache-manifest.69fc8ac1c00c3c477152e41071b8c5a6.js": "/crystal/precache-manifest.69fc8ac1c00c3c477152e41071b8c5a6.js",
   "service-worker.js": "/crystal/service-worker.js"
 }
