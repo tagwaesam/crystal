@@ -1,9 +1,9 @@
 {
   "main.css": "/crystal/static/css/main.1c8f9663.chunk.css",
-  "main.js": "/crystal/static/js/main.46925bd4.chunk.js",
-  "main.js.map": "/crystal/static/js/main.46925bd4.chunk.js.map",
-  "static/js/1.c60ae82c.chunk.js": "/crystal/static/js/1.c60ae82c.chunk.js",
-  "static/js/1.c60ae82c.chunk.js.map": "/crystal/static/js/1.c60ae82c.chunk.js.map",
+  "main.js": "/crystal/static/js/main.6ce00c41.chunk.js",
+  "main.js.map": "/crystal/static/js/main.6ce00c41.chunk.js.map",
+  "static/js/1.87b7540e.chunk.js": "/crystal/static/js/1.87b7540e.chunk.js",
+  "static/js/1.87b7540e.chunk.js.map": "/crystal/static/js/1.87b7540e.chunk.js.map",
   "runtime~main.js": "/crystal/static/js/runtime~main.9e0898f4.js",
   "runtime~main.js.map": "/crystal/static/js/runtime~main.9e0898f4.js.map",
   "static/css/main.1c8f9663.chunk.css.map": "/crystal/static/css/main.1c8f9663.chunk.css.map",
@@ -11,6 +11,6 @@
   "static/media/energy1.jpeg": "/crystal/static/media/energy1.bac8852a.jpeg",
   "static/media/logo.jpeg": "/crystal/static/media/logo.0ec02d65.jpeg",
   "index.html": "/crystal/index.html",
-  "precache-manifest.c48a813bfc22a6a5cfa485ee698af88f.js": "/crystal/precache-manifest.c48a813bfc22a6a5cfa485ee698af88f.js",
+  "precache-manifest.2e1e4463e74060005ddc24e088321b5e.js": "/crystal/precache-manifest.2e1e4463e74060005ddc24e088321b5e.js",
   "service-worker.js": "/crystal/service-worker.js"
 }
