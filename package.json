@@ -2,7 +2,7 @@
   "name": "crystal",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://tagwaesam.github.io/crystal",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
