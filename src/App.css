@@ -233,7 +233,7 @@ to { -webkit-transform:rotate(0deg) }
 
 
 /* Style the video: 100% width and height to cover the entire window */
- /* .videoContanier{
+ .videoContanier{
    position: relative;
    padding:30%;
  }
@@ -244,21 +244,21 @@ to { -webkit-transform:rotate(0deg) }
   width:100%;
   min-width: 300px;
   min-height: 300px;
-} */
+}
 
 /* Add some content at the bottom of the video/page */
-/* .videoContanier .content {
+.videoContanier .content {
   position: absolute;
   left: 3%;
-  bottom: 0; */
+  bottom: 0;
   /* background: rgba(0, 0, 0, 0.5); */
-  /* color: #f1f1f1;
+  color: #f1f1f1;
   width: 100%;
   font-size: 150%;
-}*/
+}
 
 /* Style the button used to pause/play the video */
-/* #myBtn {
+ #myBtn {
   width: 15%;
   font-size: 18px;
   padding: 1px;
@@ -271,4 +271,4 @@ to { -webkit-transform:rotate(0deg) }
 #myBtn:hover {
   background: #ddd;
   color: black;
-} */
+}
