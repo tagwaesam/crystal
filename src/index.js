@@ -23,13 +23,13 @@ const routing = (
     <div>
       <NavComponent/>
       <Switch>
-        <Route exact path="/" component={App} />
-        <Route path="/AboutUs" component={OurStory} />
-        <Route path="/OurValues" component={OurValuesInAction} />
-        <Route path="/FixingIssues" component={FixingCriticalIssues} />
-        <Route path="/Solutions" component={CommercialAndResidentialSolutions} />
-        <Route path="/Careers" component={Careers} />
-        <Route path="/ContactUs" component={ContactUs} />
+        <Route exact path={process.env.PUBLIC_URL +"/"} component={App} />
+        <Route path={process.env.PUBLIC_URL +"/AboutUs"} component={OurStory} />
+        <Route path={process.env.PUBLIC_URL +"/OurValues"} component={OurValuesInAction} />
+        <Route path={process.env.PUBLIC_URL +"/FixingIssues"} component={FixingCriticalIssues} />
+        <Route path={process.env.PUBLIC_URL +"/Solutions"} component={CommercialAndResidentialSolutions} />
+        <Route path={process.env.PUBLIC_URL +"/Careers"} component={Careers} />
+        <Route path={process.env.PUBLIC_URL +"/ContactUs"} component={ContactUs} />
         <Route component={Notfound} />
       </Switch>
       <Footer/>
