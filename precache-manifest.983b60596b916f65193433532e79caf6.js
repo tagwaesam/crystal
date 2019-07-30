@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/crystal/static/js/runtime~main.9e0898f4.js"
   },
   {
-    "revision": "7631f81ec5b2ed25a70f",
-    "url": "/crystal/static/js/main.7631f81e.chunk.js"
+    "revision": "2cef5721217ec7290731",
+    "url": "/crystal/static/js/main.2cef5721.chunk.js"
   },
   {
     "revision": "d4ea446dc4712796bf3f",
     "url": "/crystal/static/js/1.d4ea446d.chunk.js"
   },
   {
-    "revision": "7631f81ec5b2ed25a70f",
+    "revision": "2cef5721217ec7290731",
     "url": "/crystal/static/css/main.1c8f9663.chunk.css"
   },
   {
-    "revision": "fb3df7ee5bdb1e00eede3f49cd0948e7",
+    "revision": "21a353664baa38f3775220669a1a7f85",
     "url": "/crystal/index.html"
   }
 ];
