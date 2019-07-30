@@ -12,6 +12,7 @@ To get started developing right away:
 `npm install create-react-app`
 `npm install --save 'react-router'`
 `npm install react-router-dom`
+`npm install gh-pages` //to install githup pages
 
 ## Available Scripts
 
