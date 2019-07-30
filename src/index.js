@@ -19,7 +19,7 @@ import * as serviceWorker from './serviceWorker';
 
 
 const routing = (
-  <Router basename={process.env.PUBLIC_URL}>>
+  <Router basename={process.env.PUBLIC_URL}>
     <div>
       <NavComponent/>
       <Switch>
